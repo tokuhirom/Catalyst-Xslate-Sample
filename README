@@ -1,1 +1,9 @@
-Run script/helloxslate_server.pl to test the application.
+This is an example application for Xslate+Catalyst.
+
+    % catalyst.pl HelloXslate
+    % ./script/helloxslate_create.pl view HTML Xslate
+    % vi lib/HelloXslate/Controller/Root.pm
+    % vi root/hello.tx
+    % ./script/helloxslate_server.pl
+
+And access to the URL!

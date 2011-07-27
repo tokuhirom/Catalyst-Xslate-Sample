@@ -29,8 +29,9 @@ The root page (/)
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
 
-    # Hello World
-    $c->response->body( $c->welcome_message );
+#   # Hello World
+#   $c->view('Xslate')->render('root.tx');
+    $c->stash->{template} = 'root.tx';
 }
 
 =head2 default

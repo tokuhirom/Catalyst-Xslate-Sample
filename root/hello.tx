@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Hello Xslate</title>
+    </head>
+    <body>
+        <div style="font-size: 500%">Hello, Xslate!</div>
+    </body>
+</html>
